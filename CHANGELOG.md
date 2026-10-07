@@ -1,5 +1,16 @@
 # gradio
 
+## 6.29.2
+
+### Features
+
+- [#13937](https://github.com/gradio-app/gradio/pull/13937) [`dea2bf3`](https://github.com/gradio-app/gradio/commit/dea2bf33d79338b2e607689d4b77b9b37d31293b) - Preserve the alpha channel of images loaded into gr.ImageEditor (backport to 6.x).  Thanks @abidlabs!
+
+### Fixes
+
+- [#13940](https://github.com/gradio-app/gradio/pull/13940) [`c836e23`](https://github.com/gradio-app/gradio/commit/c836e23ae83b938c2677534955357aae8c26c358) - Keep custom tags visible in gr.Chatbot when allow_tags is set.  Thanks @hysts!
+- [#13944](https://github.com/gradio-app/gradio/pull/13944) [`ff0dfca`](https://github.com/gradio-app/gradio/commit/ff0dfca072af1424d32d2acc43053915530366cb) - Escape LaTeX when restoring it into rendered markdown.  Thanks @hysts!
+
 ## 6.29.1
 
 ### Fixes
